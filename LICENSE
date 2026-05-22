@@ -1,0 +1,28 @@
+조선의 북소리: 전장의 지휘자 — 학습/연구용 프로토타입
+
+소스 코드: MIT License
+----
+Copyright (c) 2026 조선의 북소리 프로젝트
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+----
+역사 자료·인물·전투에 대한 묘사는 각 원전(原典)의 학술적 권위를 존중합니다.
+- 조선왕조실록 (국가기록원)
+- 악학궤범 (성종 24년, 1493)
+- 난중일기 (이순신, 1592~1598)
+- 징비록 (류성룡)
+- 병학지남, 기효신서 등
+
+폰트(Noto Serif KR, Noto Sans KR): SIL Open Font License 1.1
+오디오: 현재 Tone.js 합성음만 사용. 실제 장구 샘플 적용 시 별도 라이선스 명시 예정.

@@ -1,0 +1,49 @@
+{
+  "game": {
+    "title": "Drums of Joseon",
+    "subtitle": "Conductor of the Battlefield",
+    "tagline": "Rhythm is Tactics"
+  },
+  "mainMenu": {
+    "campaign": "Campaign",
+    "training": "Training Grounds",
+    "codex": "Codex",
+    "settings": "Settings",
+    "footerCredits": "Imjin & Byeongja War Reenactment Project"
+  },
+  "campaign": {
+    "title": "Deployment — Select Scenario",
+    "back": "Back"
+  },
+  "training": {
+    "title": "Training — Rhythm Practice",
+    "back": "Back",
+    "selectRhythm": "Choose a Rhythm"
+  },
+  "codex": {
+    "title": "Codex — Units & Formations",
+    "back": "Back"
+  },
+  "settings": {
+    "title": "Settings",
+    "back": "Back",
+    "audioOffset": "Audio Offset",
+    "visualMetronome": "Visual Metronome (Accessibility)",
+    "language": "Language"
+  },
+  "battle": {
+    "morale": "Morale",
+    "combo": "Combo",
+    "perfect": "Perfect!",
+    "great": "Great",
+    "good": "Good",
+    "bad": "Bad",
+    "miss": "Miss"
+  },
+  "result": {
+    "title": "Battle Result",
+    "victory": "Victory",
+    "defeat": "Defeat",
+    "continue": "Continue"
+  }
+}

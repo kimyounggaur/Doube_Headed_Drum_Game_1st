@@ -1,0 +1,81 @@
+{
+  "id": "level_1_basic",
+  "name": "신병 훈련소",
+  "subtitle": "Basic Rhythms",
+  "scenario": "교관의 구령에 맞춰 허수아비를 타격하는 기초 훈련",
+  "objective": "기본 타법 3가지 (궁, 따, 덩)의 구분과 입력 적응",
+  "scene": "training_ground",
+  "timeOfDay": "morning",
+  "weather": "clear",
+  "bgm": "training_drum",
+  "chartRhythm": "hwimori",
+  "instructor": {
+    "name": "이훈련 교관",
+    "portrait": "instructor_red_coat",
+    "voiceLines": {
+      "intro": "이놈들아! 북소리는 너희의 생명줄이다!",
+      "praise_perfect": "그래! 그렇게 치는 거다!",
+      "scold_miss": "정신 차려라! 적이 코앞이다!",
+      "victory": "쓸 만하구나. 다음 단계로 가자."
+    }
+  },
+  "tutorialSteps": [
+    {
+      "phase": "learn_gung",
+      "duration": 30,
+      "instruction": "왼쪽(궁편)을 강하게 쳐서 보병을 전진시켜라",
+      "expectedStrokes": [
+        { "time": 4, "stroke": "Gung" },
+        { "time": 6, "stroke": "Gung" },
+        { "time": 8, "stroke": "Gung" }
+      ],
+      "demonstrationMode": true,
+      "completionRule": "perfect_count >= 2"
+    },
+    {
+      "phase": "learn_tta",
+      "duration": 30,
+      "instruction": "오른쪽(채편)을 강하게 쳐서 궁수가 활을 쏘게 하라",
+      "expectedStrokes": [
+        { "time": 4, "stroke": "Tta" },
+        { "time": 6, "stroke": "Tta" },
+        { "time": 8, "stroke": "Tta" }
+      ]
+    },
+    {
+      "phase": "learn_dung",
+      "duration": 30,
+      "instruction": "양손을 동시에 강하게 쳐서 전군 돌격!",
+      "expectedStrokes": [
+        { "time": 4, "stroke": "Dung" },
+        { "time": 8, "stroke": "Dung" }
+      ]
+    },
+    {
+      "phase": "combined_practice",
+      "duration": 60,
+      "instruction": "방금 배운 3가지를 조합하여 허수아비를 모두 쓰러뜨려라",
+      "chartRef": "training_basic_combined"
+    }
+  ],
+  "allies": [
+    { "type": "Infantry", "position": { "x": 1, "y": 1 } },
+    { "type": "Infantry", "position": { "x": 2, "y": 1 } },
+    { "type": "Infantry", "position": { "x": 3, "y": 1 } },
+    { "type": "Archer", "position": { "x": 1, "y": 0 } },
+    { "type": "Archer", "position": { "x": 3, "y": 0 } }
+  ],
+  "enemies": [
+    { "type": "Infantry", "position": { "x": 1, "y": 3 }, "health": 30 },
+    { "type": "Infantry", "position": { "x": 2, "y": 3 }, "health": 30 },
+    { "type": "Infantry", "position": { "x": 3, "y": 3 }, "health": 30 }
+  ],
+  "successCondition": {
+    "type": "all_enemies_defeated",
+    "minAccuracy": 60
+  },
+  "rewards": {
+    "exp": 100,
+    "title": "신병"
+  }
+}

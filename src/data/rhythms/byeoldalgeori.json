@@ -1,0 +1,78 @@
+{
+  "name": "별달거리",
+  "bpm": 130,
+  "timeSignature": [4, 4],
+  "duration": 23.1,
+  "metadata": {
+    "historicalContext": "농악 마당놀이의 사설(辭說) 장단. 한 마디는 4박, 사설 부분에서는 가락이 자유롭게 변주됨. 게임에서는 '신기전 발사' 필살기 패턴의 모체.",
+    "difficulty": 4
+  },
+  "_comment": "BPM 130 4/4 = 한 박 0.4615초, 한 마디 1.846초. 8마디 기본 + 사설 4마디 = 12마디. 필살기 패턴: 덩-(쉼)-덩-덩-따-쿵따(궁따).",
+  "notes": [
+    { "id": "b-001", "time": 0.0,    "stroke": "Dung" },
+    { "id": "b-002", "time": 0.462,  "stroke": "Gung" },
+    { "id": "b-003", "time": 0.923,  "stroke": "Tta" },
+    { "id": "b-004", "time": 1.385,  "stroke": "Gung" },
+
+    { "id": "b-005", "time": 1.846,  "stroke": "Dung" },
+    { "id": "b-006", "time": 2.308,  "stroke": "Gung" },
+    { "id": "b-007", "time": 2.769,  "stroke": "Tta" },
+    { "id": "b-008", "time": 3.231,  "stroke": "Gung" },
+
+    { "id": "b-009", "time": 3.692,  "stroke": "Dung" },
+    { "id": "b-010", "time": 4.154,  "stroke": "Dung" },
+    { "id": "b-011", "time": 4.615,  "stroke": "Tta" },
+    { "id": "b-012", "time": 4.846,  "stroke": "Gung" },
+    { "id": "b-013", "time": 5.077,  "stroke": "Tta" },
+
+    { "id": "b-014", "time": 5.538,  "stroke": "Dung" },
+    { "id": "b-015", "time": 6.000,  "stroke": "Gung" },
+    { "id": "b-016", "time": 6.462,  "stroke": "Tta" },
+    { "id": "b-017", "time": 6.923,  "stroke": "Gung" },
+
+    { "id": "b-018", "time": 7.385,  "stroke": "Dung" },
+    { "id": "b-019", "time": 7.846,  "stroke": "Tta" },
+    { "id": "b-020", "time": 8.308,  "stroke": "Gung" },
+    { "id": "b-021", "time": 8.769,  "stroke": "Tta" },
+
+    { "id": "b-022", "time": 9.231,  "stroke": "Dung" },
+    { "id": "b-023", "time": 9.692,  "stroke": "Gung" },
+    { "id": "b-024", "time": 10.154, "stroke": "Tta" },
+    { "id": "b-025", "time": 10.615, "stroke": "Gung" },
+
+    { "id": "b-026", "time": 11.077, "stroke": "Dung" },
+    { "id": "b-027", "time": 11.538, "stroke": "Dung" },
+    { "id": "b-028", "time": 12.000, "stroke": "Tta" },
+    { "id": "b-029", "time": 12.231, "stroke": "Gung" },
+    { "id": "b-030", "time": 12.462, "stroke": "Tta" },
+
+    { "id": "b-031", "time": 12.923, "stroke": "Dung" },
+    { "id": "b-032", "time": 13.385, "stroke": "Gung" },
+    { "id": "b-033", "time": 13.846, "stroke": "Tta" },
+    { "id": "b-034", "time": 14.308, "stroke": "Gung" },
+
+    { "id": "b-035", "time": 14.769, "stroke": "Dung",
+      "formationTag": "singijeon" },
+    { "id": "b-036", "time": 15.692, "stroke": "Dung",
+      "formationTag": "singijeon" },
+    { "id": "b-037", "time": 16.154, "stroke": "Dung",
+      "formationTag": "singijeon" },
+    { "id": "b-038", "time": 16.615, "stroke": "Tta",
+      "formationTag": "singijeon" },
+    { "id": "b-039", "time": 16.846, "stroke": "Gung",
+      "formationTag": "singijeon" },
+    { "id": "b-040", "time": 17.077, "stroke": "Tta",
+      "formationTag": "singijeon" },
+
+    { "id": "b-041", "time": 17.846, "stroke": "Dung" },
+    { "id": "b-042", "time": 18.308, "stroke": "Gung" },
+    { "id": "b-043", "time": 18.769, "stroke": "Tta" },
+    { "id": "b-044", "time": 19.231, "stroke": "Gung" },
+
+    { "id": "b-045", "time": 19.692, "stroke": "Dung" },
+    { "id": "b-046", "time": 20.154, "stroke": "Gung" },
+    { "id": "b-047", "time": 20.615, "stroke": "Tta" },
+    { "id": "b-048", "time": 21.077, "stroke": "Gung" },
+    { "id": "b-049", "time": 21.538, "stroke": "Dung" }
+  ]
+}

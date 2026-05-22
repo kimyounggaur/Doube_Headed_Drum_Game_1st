@@ -1,0 +1,59 @@
+{
+  "$schema": "../../docs/schemas/strokes.schema.json",
+  "strokes": [
+    {
+      "id": "Gung",
+      "korean": "궁",
+      "type": "left_strong",
+      "side": "Left",
+      "intensity": "Strong",
+      "command": "AdvanceShieldWall",
+      "description": "보병 전진/방패벽 — 기병 돌격 저지"
+    },
+    {
+      "id": "Gu",
+      "korean": "구",
+      "type": "left_weak",
+      "side": "Left",
+      "intensity": "Weak",
+      "command": "Regroup",
+      "description": "보병 대기/재정비 — 체력 회복"
+    },
+    {
+      "id": "Tta",
+      "korean": "따",
+      "type": "right_strong",
+      "side": "Right",
+      "intensity": "Strong",
+      "command": "VolleyFire",
+      "description": "궁수 일제 사격 — 화망 구성"
+    },
+    {
+      "id": "Da",
+      "korean": "다",
+      "type": "right_weak",
+      "side": "Right",
+      "intensity": "Weak",
+      "command": "AimReload",
+      "description": "조준/장전 — 다음 사격 치명타↑"
+    },
+    {
+      "id": "Dung",
+      "korean": "덩",
+      "type": "both_strong",
+      "side": "Both",
+      "intensity": "Strong",
+      "command": "AllOutAttack",
+      "description": "전군 총공격 — 최대 데미지"
+    },
+    {
+      "id": "Deo",
+      "korean": "더",
+      "type": "both_weak",
+      "side": "Both",
+      "intensity": "Weak",
+      "command": "Retreat",
+      "description": "전군 후퇴/산개 — 광역 공격 회피"
+    }
+  ]
+}

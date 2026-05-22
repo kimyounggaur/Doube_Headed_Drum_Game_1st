@@ -1,0 +1,54 @@
+{
+  "id": "level_3_waeku_raid",
+  "name": "왜구의 기습",
+  "subtitle": "Waeku Village Raid",
+  "scenario": "낮, 평화로운 마을이 왜구의 기습에 짓밟힌다. 의병을 이끌고 격퇴하라. 마지막에 두목과 일대일 보스전.",
+  "objective": "콤보(돌격·포위·별달거리)를 활용하여 왜구 두목 격파",
+  "scene": "village_attack",
+  "timeOfDay": "noon",
+  "weather": "windy",
+  "bgm": "byeoldalgeori_intense",
+  "chartRhythm": "byeoldalgeori",
+  "instructor": {
+    "name": "김의병 대장",
+    "portrait": "instructor_red_armor",
+    "voiceLines": {
+      "intro": "왜구가 마을을 덮쳤다! 의병들이 너의 북소리만 보고 있다.",
+      "praise_perfect": "장하다! 그 박자에 왜구가 떨어진다!",
+      "scold_miss": "정신 차려라! 마을 사람들이 다친다!",
+      "victory": "두목의 목까지 베었다. 마을은 우리가 지켰다."
+    }
+  },
+  "bpmRamp": { "from": 110, "to": 140 },
+  "tutorialSteps": [
+    {
+      "phase": "intro_combo",
+      "duration": 20,
+      "instruction": "돌격(궁-따-궁), 포위(따-궁-따), 필살기(별달거리)를 적시에 사용하라."
+    }
+  ],
+  "allies": [
+    { "type": "Infantry", "position": { "x": 0, "y": 1 } },
+    { "type": "Infantry", "position": { "x": 1, "y": 1 } },
+    { "type": "Infantry", "position": { "x": 2, "y": 1 } },
+    { "type": "Infantry", "position": { "x": 3, "y": 1 } },
+    { "type": "Archer", "position": { "x": 1, "y": 0 } },
+    { "type": "Archer", "position": { "x": 3, "y": 0 } }
+  ],
+  "enemies": [
+    { "type": "Infantry", "position": { "x": 0, "y": 3 }, "health": 60 },
+    { "type": "Infantry", "position": { "x": 2, "y": 3 }, "health": 60 },
+    { "type": "Infantry", "position": { "x": 4, "y": 3 }, "health": 60 },
+    { "type": "Archer", "position": { "x": 1, "y": 4 }, "health": 50 },
+    { "type": "Archer", "position": { "x": 3, "y": 4 }, "health": 50 },
+    { "type": "AllForces", "position": { "x": 2, "y": 4 }, "health": 200 }
+  ],
+  "successCondition": {
+    "type": "all_enemies_defeated",
+    "minAccuracy": 75
+  },
+  "rewards": {
+    "exp": 500,
+    "title": "의병장"
+  }
+}

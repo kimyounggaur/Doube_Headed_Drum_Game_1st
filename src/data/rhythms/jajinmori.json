@@ -1,0 +1,60 @@
+{
+  "name": "자진모리",
+  "bpm": 120,
+  "timeSignature": [12, 8],
+  "duration": 16.5,
+  "metadata": {
+    "historicalContext": "4박×3분할의 12/8 — 판소리·풍물의 빠른 부분. 행진과 추격의 박자.",
+    "difficulty": 3
+  },
+  "_comment": "BPM 120 (4분음 기준), 한 박=0.5초, 12/8 한 마디=2초 (8분음 슬롯 0.1667초). Basic 1과 Basic 2(삼채형)를 교차 배치.",
+  "notes": [
+    { "id": "j-001", "time": 0.0,   "stroke": "Dung" },
+    { "id": "j-002", "time": 0.5,   "stroke": "Gung" },
+    { "id": "j-003", "time": 1.0,   "stroke": "Tta" },
+    { "id": "j-004", "time": 1.5,   "stroke": "Gung" },
+
+    { "id": "j-005", "time": 2.0,   "stroke": "Dung" },
+    { "id": "j-006", "time": 2.167, "stroke": "Da",  "isGhost": true },
+    { "id": "j-007", "time": 2.333, "stroke": "Da",  "isGhost": true },
+    { "id": "j-008", "time": 2.5,   "stroke": "Gung" },
+    { "id": "j-009", "time": 3.0,    "stroke": "Tta" },
+    { "id": "j-010", "time": 3.5,    "stroke": "Gung" },
+
+    { "id": "j-011", "time": 4.0,   "stroke": "Dung" },
+    { "id": "j-012", "time": 4.167, "stroke": "Tta", "isGhost": true },
+    { "id": "j-013", "time": 4.333, "stroke": "Tta", "isGhost": true },
+    { "id": "j-014", "time": 4.5,   "stroke": "Gung" },
+    { "id": "j-015", "time": 5.0,   "stroke": "Tta" },
+    { "id": "j-016", "time": 5.5,   "stroke": "Gung" },
+
+    { "id": "j-017", "time": 6.0,   "stroke": "Dung" },
+    { "id": "j-018", "time": 6.5,   "stroke": "Gung" },
+    { "id": "j-019", "time": 7.0,   "stroke": "Tta" },
+    { "id": "j-020", "time": 7.5,   "stroke": "Gung" },
+
+    { "id": "j-021", "time": 8.0,   "stroke": "Dung" },
+    { "id": "j-022", "time": 8.167, "stroke": "Tta", "isGhost": true },
+    { "id": "j-023", "time": 8.333, "stroke": "Tta", "isGhost": true },
+    { "id": "j-024", "time": 8.5,   "stroke": "Gung" },
+    { "id": "j-025", "time": 9.0,   "stroke": "Tta" },
+    { "id": "j-026", "time": 9.5,   "stroke": "Gung" },
+
+    { "id": "j-027", "time": 10.0,  "stroke": "Dung" },
+    { "id": "j-028", "time": 10.5,  "stroke": "Gung" },
+    { "id": "j-029", "time": 11.0,  "stroke": "Tta" },
+    { "id": "j-030", "time": 11.5,  "stroke": "Gung" },
+
+    { "id": "j-031", "time": 12.0,  "stroke": "Dung" },
+    { "id": "j-032", "time": 12.167,"stroke": "Tta", "isGhost": true },
+    { "id": "j-033", "time": 12.333,"stroke": "Tta", "isGhost": true },
+    { "id": "j-034", "time": 12.5,  "stroke": "Gung" },
+    { "id": "j-035", "time": 13.0,  "stroke": "Tta" },
+    { "id": "j-036", "time": 13.5,  "stroke": "Gung" },
+
+    { "id": "j-037", "time": 14.0,  "stroke": "Dung" },
+    { "id": "j-038", "time": 14.5,  "stroke": "Gung" },
+    { "id": "j-039", "time": 15.0,  "stroke": "Tta" },
+    { "id": "j-040", "time": 15.5,  "stroke": "Dung" }
+  ]
+}

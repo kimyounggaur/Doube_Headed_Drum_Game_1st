@@ -1,0 +1,107 @@
+{
+  "weapons": [
+    {
+      "id": "training_janggu",
+      "name": "교련용 장구",
+      "tier": 1,
+      "rank_required": "militia",
+      "effects": {},
+      "description": "병영에서 신병들이 사용하는 기본 장구"
+    },
+    {
+      "id": "yonggo",
+      "name": "용고",
+      "nameHanja": "龍鼓",
+      "tier": 3,
+      "rank_required": "musician",
+      "effects": {
+        "attack_multiplier": 1.2,
+        "enemy_morale_aura": -10
+      },
+      "description": "어깨에 메고 치는 큰 북. 위엄과 공격력의 상징.",
+      "historicalNote": "조선의 행군악에서 사용된 대형 북"
+    },
+    {
+      "id": "singijeon_janggu",
+      "name": "신기전 지원 장구",
+      "tier": 5,
+      "rank_required": "special_army",
+      "effects": {
+        "byeoldalgeori_bonus": "rocket_volley",
+        "rocket_count": 4
+      },
+      "description": "별달거리 성공 시 신기전을 추가 발사하는 특수 장구",
+      "historicalNote": "신기전(神機箭)은 세종대왕 시절 개발된 화차 다연장 로켓"
+    }
+  ],
+  "armor": [
+    {
+      "id": "cheollik",
+      "name": "철릭",
+      "nameHanja": "天翼",
+      "tier": 1,
+      "rank_required": "militia",
+      "effects": {},
+      "description": "조선 무관의 기본 군복"
+    },
+    {
+      "id": "dujeong_gap",
+      "name": "두정갑",
+      "nameHanja": "頭釘甲",
+      "tier": 3,
+      "rank_required": "musician",
+      "effects": {
+        "damage_reduction": 0.3,
+        "speed_penalty": -0.1
+      },
+      "description": "쇠 못으로 가죽에 박은 갑옷. 피격 데미지 30% 감소.",
+      "historicalNote": "조선 후기 군영의 표준 갑주"
+    },
+    {
+      "id": "full_gapju",
+      "name": "갑주 일습",
+      "tier": 5,
+      "rank_required": "commander",
+      "effects": {
+        "damage_reduction": 0.45,
+        "speed_penalty": -0.15,
+        "morale_bonus": 10
+      },
+      "description": "두정갑 + 투구 + 견갑 풀세트. 보스전 전용.",
+      "historicalNote": "원수 및 도원수가 착용한 정식 갑주 일습"
+    }
+  ],
+  "sticks": [
+    {
+      "id": "bamboo_sticks",
+      "name": "대나무 궁채/열채",
+      "tier": 1,
+      "rank_required": "militia",
+      "effects": {},
+      "description": "초보 고수의 기본 채. 판정 윈도우 표준."
+    },
+    {
+      "id": "birch_sticks",
+      "name": "박달나무 채",
+      "nameHanja": "檀木撥",
+      "tier": 3,
+      "rank_required": "musician",
+      "effects": {
+        "judgment_window_bonus_ms": 10
+      },
+      "description": "단단하고 무거운 박달나무. 판정 윈도우 +10ms.",
+      "historicalNote": "박달나무는 조선에서 무기·악기에 두루 쓰인 단단한 목재"
+    },
+    {
+      "id": "horn_sticks",
+      "name": "물소뿔 채",
+      "tier": 5,
+      "rank_required": "special_army",
+      "effects": {
+        "judgment_window_bonus_ms": 20,
+        "combo_morale_bonus": 5
+      },
+      "description": "물소뿔로 만든 명품 채. 판정 윈도우 +20ms, 콤보 유지 시 사기 +5."
+    }
+  ]
+}

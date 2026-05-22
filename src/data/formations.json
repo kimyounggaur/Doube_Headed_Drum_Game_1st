@@ -1,0 +1,63 @@
+{
+  "formations": [
+    {
+      "id": "crane",
+      "name": "학익진",
+      "nameHanja": "鶴翼陣",
+      "patternRelaxed": ["Gung", "Tta", "Gung", "Tta", "Gung"],
+      "effect": {
+        "type": "encircle",
+        "description": "아군이 반원으로 적을 포위 섬멸",
+        "buffs": { "attackSpeed": 1.3, "durationMs": 8000 }
+      },
+      "historicalNote": "이순신 장군이 한산도 대첩에서 사용한 진법"
+    },
+    {
+      "id": "line",
+      "name": "일자진",
+      "nameHanja": "一字陣",
+      "patternRelaxed": ["Tta", "Gung", "Gung", "Tta", "Gu", "Gung"],
+      "effect": {
+        "type": "defense",
+        "description": "횡대 정렬로 방어력 극대화",
+        "buffs": { "defense": 1.5, "durationMs": 10000 }
+      }
+    },
+    {
+      "id": "snake",
+      "name": "장사진",
+      "nameHanja": "長蛇陣",
+      "patternRelaxed": ["Dung", "Gung", "Tta", "Gung", "Tta"],
+      "effect": {
+        "type": "mobility",
+        "description": "기동력↑, 돌파/후퇴",
+        "buffs": { "speed": 1.4, "durationMs": 6000 }
+      }
+    },
+    {
+      "id": "circle",
+      "name": "원진",
+      "nameHanja": "圓陣",
+      "patternRelaxed": ["Gung", "Tta", "Gung", "Tta"],
+      "effect": {
+        "type": "omnidirectional_defense",
+        "description": "전방위 방어, 포위 시 생존↑",
+        "buffs": { "defense": 1.3, "survivability": 1.5, "durationMs": 12000 }
+      }
+    }
+  ],
+  "specials": [
+    {
+      "id": "singijeon",
+      "name": "신기전",
+      "rhythm": "별달거리",
+      "patternRelaxed": ["Dung", "REST", "Dung", "Dung", "Tta", "Gung", "Tta"],
+      "effect": {
+        "type": "rocket_volley",
+        "damage": 500,
+        "areaOfEffect": 200,
+        "description": "화차에서 신기전 일제 발사"
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "휘모리",
+  "bpm": 150,
+  "timeSignature": [4, 4],
+  "duration": 13.6,
+  "metadata": {
+    "historicalContext": "휘몰아치는 빠른 4박자 — 농악·민요의 결말부, 전투의 절정에 사용",
+    "difficulty": 3
+  },
+  "_comment": "BPM 150 4/4 = 한 박 0.4초, 한 마디 1.6초. 8분음 단위 슬롯 = 0.2초. 8마디 기본 + 다드래기 변형 1마디 + 마무리 0.4초.",
+  "notes": [
+    { "id": "h-001", "time": 0.0,  "stroke": "Dung" },
+    { "id": "h-002", "time": 0.4,  "stroke": "Dung" },
+    { "id": "h-003", "time": 0.8,  "stroke": "Gung" },
+    { "id": "h-004", "time": 1.0,  "stroke": "Tta" },
+    { "id": "h-005", "time": 1.2,  "stroke": "Gung" },
+
+    { "id": "h-006", "time": 1.6,  "stroke": "Dung" },
+    { "id": "h-007", "time": 2.0,  "stroke": "Dung" },
+    { "id": "h-008", "time": 2.4,  "stroke": "Gung" },
+    { "id": "h-009", "time": 2.6,  "stroke": "Tta" },
+    { "id": "h-010", "time": 2.8,  "stroke": "Gung" },
+
+    { "id": "h-011", "time": 3.2,  "stroke": "Dung" },
+    { "id": "h-012", "time": 3.6,  "stroke": "Dung" },
+    { "id": "h-013", "time": 4.0,  "stroke": "Gung" },
+    { "id": "h-014", "time": 4.2,  "stroke": "Tta" },
+    { "id": "h-015", "time": 4.4,  "stroke": "Gung" },
+
+    { "id": "h-016", "time": 4.8,  "stroke": "Dung" },
+    { "id": "h-017", "time": 5.2,  "stroke": "Dung" },
+    { "id": "h-018", "time": 5.6,  "stroke": "Gung" },
+    { "id": "h-019", "time": 5.8,  "stroke": "Tta" },
+    { "id": "h-020", "time": 6.0,  "stroke": "Gung" },
+
+    { "id": "h-021", "time": 6.4,  "stroke": "Tta" },
+    { "id": "h-022", "time": 6.6,  "stroke": "Tta", "isGhost": true },
+    { "id": "h-023", "time": 6.8,  "stroke": "Tta" },
+    { "id": "h-024", "time": 7.0,  "stroke": "Da",  "isGhost": true },
+    { "id": "h-025", "time": 7.2,  "stroke": "Tta" },
+    { "id": "h-026", "time": 7.4,  "stroke": "Da",  "isGhost": true },
+    { "id": "h-027", "time": 7.6,  "stroke": "Tta" },
+
+    { "id": "h-028", "time": 8.0,  "stroke": "Dung" },
+    { "id": "h-029", "time": 8.4,  "stroke": "Dung" },
+    { "id": "h-030", "time": 8.8,  "stroke": "Gung" },
+    { "id": "h-031", "time": 9.0,  "stroke": "Tta" },
+    { "id": "h-032", "time": 9.2,  "stroke": "Gung" },
+
+    { "id": "h-033", "time": 9.6,  "stroke": "Dung" },
+    { "id": "h-034", "time": 10.0, "stroke": "Dung" },
+    { "id": "h-035", "time": 10.4, "stroke": "Gung" },
+    { "id": "h-036", "time": 10.6, "stroke": "Tta" },
+    { "id": "h-037", "time": 10.8, "stroke": "Gung" },
+
+    { "id": "h-038", "time": 11.2, "stroke": "Dung" },
+    { "id": "h-039", "time": 11.6, "stroke": "Dung" },
+    { "id": "h-040", "time": 12.0, "stroke": "Gung" },
+    { "id": "h-041", "time": 12.2, "stroke": "Tta" },
+    { "id": "h-042", "time": 12.4, "stroke": "Gung" },
+    { "id": "h-043", "time": 12.8, "stroke": "Dung" }
+  ]
+}

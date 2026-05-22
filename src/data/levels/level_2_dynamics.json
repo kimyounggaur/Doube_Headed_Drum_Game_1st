@@ -1,0 +1,48 @@
+{
+  "id": "level_2_dynamics",
+  "name": "야간 정찰",
+  "subtitle": "Stealth Under Moonlight",
+  "scenario": "달빛 아래 적 정찰병의 시야를 피해 살금살금 잠입한다. 약타만 사용하여 들키지 말 것.",
+  "objective": "약타(구·다·더)만으로 적 정찰병 제압",
+  "scene": "city_wall_night",
+  "timeOfDay": "night",
+  "weather": "clear",
+  "bgm": "jajinmori_quiet",
+  "chartRhythm": "jajinmori",
+  "instructor": {
+    "name": "박정찰 부장",
+    "portrait": "instructor_dark_blue",
+    "voiceLines": {
+      "intro": "조용히… 강타는 절대 안 된다. 적의 귀가 곤두서 있어.",
+      "praise_perfect": "좋아, 그 박자야. 숨소리도 죽여라.",
+      "scold_miss": "강타다! 적이 깨어났다, 정신 차려!",
+      "victory": "고생했네. 적은 우리가 다녀간 줄도 모를 거야."
+    }
+  },
+  "forbiddenStrokes": ["Gung", "Tta", "Dung"],
+  "tutorialSteps": [
+    {
+      "phase": "stealth_intro",
+      "duration": 30,
+      "instruction": "약타 3종(구·다·더)만 사용해라. 강타 1회로 비상 경보가 울린다."
+    }
+  ],
+  "allies": [
+    { "type": "Infantry", "position": { "x": 2, "y": 0 } },
+    { "type": "Archer", "position": { "x": 1, "y": 0 } },
+    { "type": "Archer", "position": { "x": 3, "y": 0 } }
+  ],
+  "enemies": [
+    { "type": "Infantry", "position": { "x": 2, "y": 3 }, "health": 50 },
+    { "type": "Archer", "position": { "x": 1, "y": 4 }, "health": 40 },
+    { "type": "Archer", "position": { "x": 3, "y": 4 }, "health": 40 }
+  ],
+  "successCondition": {
+    "type": "all_enemies_defeated",
+    "minAccuracy": 70
+  },
+  "rewards": {
+    "exp": 200,
+    "title": "야행관"
+  }
+}

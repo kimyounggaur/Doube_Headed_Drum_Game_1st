@@ -1,0 +1,49 @@
+{
+  "game": {
+    "title": "조선의 북소리",
+    "subtitle": "전장의 지휘자",
+    "tagline": "리듬은 곧 전술이다"
+  },
+  "mainMenu": {
+    "campaign": "시나리오 모드",
+    "training": "무관 수련",
+    "codex": "도감",
+    "settings": "설정",
+    "footerCredits": "임진왜란 ・ 병자호란 군영 재현 프로젝트"
+  },
+  "campaign": {
+    "title": "출정 — 시나리오 선택",
+    "back": "돌아가기"
+  },
+  "training": {
+    "title": "무관 수련 — 장단 연습",
+    "back": "돌아가기",
+    "selectRhythm": "장단을 고르시오"
+  },
+  "codex": {
+    "title": "도감 — 병종과 진법",
+    "back": "돌아가기"
+  },
+  "settings": {
+    "title": "설정",
+    "back": "돌아가기",
+    "audioOffset": "오디오 보정",
+    "visualMetronome": "시각적 메트로놈 (청각 보조)",
+    "language": "언어"
+  },
+  "battle": {
+    "morale": "사기",
+    "combo": "콤보",
+    "perfect": "완벽!",
+    "great": "훌륭함",
+    "good": "양호",
+    "bad": "흐트러짐",
+    "miss": "실기"
+  },
+  "result": {
+    "title": "전투 결과",
+    "victory": "승전",
+    "defeat": "패전",
+    "continue": "계속"
+  }
+}

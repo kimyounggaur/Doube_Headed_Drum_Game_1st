@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------- 한국 전통 미감 기본 변수 ---------- */
+:root {
+  --dancheong-red: #a91b0d;
+  --dancheong-blue: #1f3a5f;
+  --dancheong-green: #3a7d44;
+  --dancheong-yellow: #e8b647;
+  --dancheong-white: #f4ecd8;
+  --ink: #1a1a1a;
+  --hanji: #f4ecd8;
+
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Noto Serif KR', serif;
+  font-feature-settings: 'palt';
+  background-color: var(--ink);
+  color: var(--hanji);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* 한지 질감을 가벼운 노이즈로 흉내 */
+  background-image:
+    radial-gradient(circle at 25% 30%, rgba(232, 182, 71, 0.04) 0%, transparent 35%),
+    radial-gradient(circle at 75% 70%, rgba(169, 27, 13, 0.05) 0%, transparent 40%),
+    var(--ink);
+}
+
+/* ---------- 단청 보더 (운룡문 풍 외곽) ---------- */
+@layer components {
+  .border-dancheong {
+    border-image: linear-gradient(
+        45deg,
+        var(--dancheong-red),
+        var(--dancheong-yellow),
+        var(--dancheong-blue),
+        var(--dancheong-green),
+        var(--dancheong-red)
+      )
+      1;
+  }
+
+  /* 단청 스타일 메뉴 버튼 */
+  .btn-dancheong {
+    @apply relative inline-flex items-center justify-center;
+    @apply px-8 py-4 text-xl font-title font-bold tracking-wider;
+    @apply bg-dancheong-red text-hanji;
+    @apply border-4 border-dancheong-yellow;
+    @apply transition-all duration-200 ease-out;
+    @apply shadow-dancheong;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+  }
+
+  .btn-dancheong:hover {
+    @apply bg-dancheong-blue;
+    transform: translateY(-2px);
+  }
+
+  .btn-dancheong:active {
+    transform: translateY(1px);
+  }
+
+  /* 한지 카드 */
+  .card-hanji {
+    @apply bg-hanji-texture text-ink;
+    @apply border-2 border-dancheong-red;
+    @apply px-6 py-5;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* ---------- 모바일 세로 우선 (9:16) ---------- */
+@media (orientation: portrait) {
+  body {
+    overscroll-behavior: contain;
+    touch-action: manipulation;
+  }
+}
+
+/* iOS Safari 안전 영역 */
+.safe-area {
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
