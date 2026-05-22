@@ -4,6 +4,7 @@ import path from 'node:path';
 
 // 프로젝트 비전: "리듬은 곧 전술이다" — 단일 AudioContext 동기화를 위해 모든 오디오는 Tone.js로 통합.
 export default defineConfig({
+  base: process.env.GITHUB_PAGES === 'true' ? '/Doube_Headed_Drum_Game_1st/' : '/',
   plugins: [react()],
   resolve: {
     alias: {
